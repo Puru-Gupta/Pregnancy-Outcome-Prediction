@@ -25,11 +25,11 @@ To improve interpretability and reduce overfitting:
 - **Ridge Regression:** Addressed multicollinearity among features.
 
 ### **Key Features Identified:**
-✅ Maternal Age  
-✅ Literacy Status  
-✅ Pregnancy Complications  
-✅ Smoking Status  
-✅ Maternal Mental Health  
+Maternal Age  
+Literacy Status  
+Pregnancy Complications  
+Smoking Status  
+Maternal Mental Health  
 
 ## **3. Model Development**
 Trained multiple machine learning models:
@@ -41,8 +41,8 @@ Trained multiple machine learning models:
 
 ## **4. Model Evaluation**
 ### **Validation Techniques**
-✔ **10-fold Cross-Validation** – Ensured generalization.  
-✔ **Bootstrapping** – Resampling for robust performance estimates.  
+**10-fold Cross-Validation** – Ensured generalization.  
+**Bootstrapping** – Resampling for robust performance estimates.  
 
 ### **Performance Metrics**
 | Model | AUC | Accuracy | Precision | Recall | F1 Score |
@@ -57,20 +57,20 @@ Trained multiple machine learning models:
 To improve interpretability, **SHAP (SHapley Additive exPlanations)** was used to explain feature importance.
 
 ### **Key Feature Contributions:**
-📌 **BMI** – Higher BMI linked to increased risk.  
-📌 **Smoking & Alcohol Consumption** – Strong negative impact.  
-📌 **Maternal Stress Levels** – Higher stress increased risk.  
-📌 **Age** – Higher risk for very young (<18) or older (>35) mothers.  
+**BMI** – Higher BMI linked to increased risk.  
+**Smoking & Alcohol Consumption** – Strong negative impact.  
+**Maternal Stress Levels** – Higher stress increased risk.  
+**Age** – Higher risk for very young (<18) or older (>35) mothers.  
 
 ## **6. Conclusion & Recommendations**
-✅ **Clinical Application:** Can be deployed as a **decision-support tool** for healthcare providers.  
-✅ **Early Intervention:** High-risk patients can receive **targeted counseling and interventions**.  
-✅ **Feature Refinement:** Future data collection (e.g., genetic factors, blood biomarkers) can improve accuracy.  
-✅ **Ethical Considerations:** Must ensure fairness across different socio-demographic groups.  
+**Clinical Application:** Can be deployed as a **decision-support tool** for healthcare providers.  
+**Early Intervention:** High-risk patients can receive **targeted counseling and interventions**.  
+**Feature Refinement:** Future data collection (e.g., genetic factors, blood biomarkers) can improve accuracy.  
+**Ethical Considerations:** Must ensure fairness across different socio-demographic groups.  
 
 ## **7. Future Enhancements**
-🚀 **Deep learning approaches** – LSTMs for temporal pregnancy data.  
-🚀 **Integration with EHR systems** – Real-time risk assessment.  
-🚀 **Intervention modeling** – Assess lifestyle changes' impact.  
+**Deep learning approaches** – LSTMs for temporal pregnancy data.  
+**Integration with EHR systems** – Real-time risk assessment.  
+**Intervention modeling** – Assess lifestyle changes' impact.  
 
 
