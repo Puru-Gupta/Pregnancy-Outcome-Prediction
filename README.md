@@ -96,9 +96,3 @@ SHAP analysis helped clinicians understand why certain predictions were made, ma
 
 ---
 
-## **7. Conclusion & Recommendations**
-- **Early Intervention:** High-risk patients can receive **targeted counseling and interventions**.
-- **Feature Refinement:** Further improvements in data collection (e.g., genetic factors, blood biomarkers) may enhance prediction accuracy.
-- **Ethical Considerations:** Ensure fairness across socio-demographic groups and avoid unnecessary anxiety for patients.
-
----
